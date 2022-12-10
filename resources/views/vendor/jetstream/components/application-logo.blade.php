@@ -1,1 +1,2 @@
-<span {{ $attributes }}>🐾</span>
+<img {{ $attributes }} src="{{ asset('logo/grinning.png') }}" alt="Vetsy">
+

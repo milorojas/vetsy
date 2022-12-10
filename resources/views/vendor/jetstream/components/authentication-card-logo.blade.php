@@ -1,3 +1,3 @@
 <a href="/">
-    <span class="text-7xl">🐾</span>
+    <img class="h-20" src="{{ asset('logo/grinning.png') }}" alt="Vetsy grinning">
 </a>
