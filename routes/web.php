@@ -26,3 +26,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('/', \App\Http\Livewire\Admin::class)->name('admin');
+});
