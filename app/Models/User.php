@@ -58,4 +58,14 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    /**
+     * Get a total number with the current users
+     *
+     * @return int
+     */
+    public static function totalRecords(): int
+    {
+        return User::all()->count();
+    }
 }
