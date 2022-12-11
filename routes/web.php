@@ -29,4 +29,5 @@ Route::middleware([
 
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/', \App\Http\Livewire\Admin::class)->name('admin');
+    Route::get('/users', \App\Http\Livewire\Admin\User::class)->name('admin.user');
 });

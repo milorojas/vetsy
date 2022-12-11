@@ -1,4 +1,3 @@
-
 <div class="grow grid grid-cols-12 gap-1">
     <!-- Sidebar -->
     <x-sidebar></x-sidebar>

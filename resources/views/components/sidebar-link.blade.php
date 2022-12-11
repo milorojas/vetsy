@@ -9,7 +9,7 @@
                 : 'bg-gray-100 text-gray-600 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full';
 @endphp
 
-<a {{ $attributes->merge(['class' => $classes]) }}>
+<a x-init="@js($active) ? openGroup = true : '' " {{ $attributes->merge(['class' => $classes]) }}>
     <span class="truncate">{{ $slot }}</span>
     <span class="{{ $classesTotal }}">{{ $total }}</span>
 </a>
