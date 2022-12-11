@@ -20,7 +20,8 @@ class UserTable extends DataTableComponent
     {
         return [
             Column::make(__("Name"), "name")
-                ->sortable(),
+                ->sortable()
+                ->searchable(),
             Column::make(__("Email"), "email")
                 ->sortable(),
         ];
