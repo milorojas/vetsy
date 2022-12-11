@@ -11,7 +11,6 @@
             </div>
         </div>
 
-
         <div class="grid grid-cols-6 p-3 gap-2">
             <div class="col-span-3">
                 <a href="#" class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
@@ -45,8 +44,5 @@
                 </a>
             </div>
         </div>
-
-
-
     </div>
 </div>
