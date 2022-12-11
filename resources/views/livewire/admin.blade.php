@@ -1,5 +1,5 @@
 
-<div class="grid grid-cols-12">
+<div class="grow grid grid-cols-12">
     <!-- Sidebar -->
     <x-sidebar></x-sidebar>
 

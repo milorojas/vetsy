@@ -11,5 +11,5 @@
 
 <a {{ $attributes->merge(['class' => $classes]) }}>
     <span class="truncate">{{ $slot }}</span>
-    <span {{ $attributes->merge(['class' => $classesTotal]) }}>{{ $total }}</span>
+    <span class="{{ $classesTotal }}">{{ $total }}</span>
 </a>
