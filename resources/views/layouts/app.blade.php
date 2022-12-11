@@ -19,7 +19,7 @@
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-white">
+        <div class="flex flex-col min-h-screen bg-white">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
@@ -32,7 +32,7 @@
             @endif
 
             <!-- Page Content -->
-            <main>
+            <main class="flex flex-grow">
                 {{ $slot }}
             </main>
         </div>
