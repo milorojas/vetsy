@@ -9,5 +9,8 @@
             </div>
         </div>
 
+        <div class="mt-6">
+            <livewire:admin.user-table></livewire:admin.user-table>
+        </div>
     </div>
 </div>
